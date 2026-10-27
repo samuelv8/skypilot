@@ -732,6 +732,7 @@ SKIPPED_CLIENT_OVERRIDE_KEYS: List[Tuple[str, ...]] = [
     ('serve', 'controller', 'consolidation_mode'),
     ('jobs', 'controller', 'controller_logs_gc_retention_hours'),
     ('jobs', 'controller', 'task_logs_gc_retention_hours'),
+    ('jobs', 'controller', 'stream_task_logs_to_controller_log'),
     # Slurm submit identity and cluster settings are managed server-side.
     ('slurm', 'cluster_configs'),
     ('slurm', 'submit_as_user'),
